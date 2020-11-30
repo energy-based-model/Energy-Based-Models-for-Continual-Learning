@@ -1,4 +1,4 @@
-# compositional-generation-inference
-Compositional Visual Generation and Inference with Energy Based Models
+# Energy-Based Models for Continual Learning
+Energy-Based Models for Continual Learning
 
-https://energy-based-model.github.io/compositional-generation-inference/
+https://energy-based-model.github.io/Energy-Based-Models-for-Continual-Learning/
