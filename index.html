@@ -85,6 +85,7 @@ BODY {
 
 
 
+
 <!-- ---------------------------------------------------------------------------------- -->
 <a href=""><img style="float: left; padding: 10px; PADDING-RIGHT: 30px;" alt="paper thumbnail" src="files/fig/paper_thumbnail.png" width=170></a>
 <br>
@@ -103,13 +104,31 @@ BODY {
    Energy-Based Models for Continual Learning. <a href="files/citation.txt">Bibtex</a>
 </p>
 
+<!-- 
+<br><br>
+<h2>Bibtex</h2>
+<p>
+<div class="card">
+<div class="card-block">
+<pre class="card-text clickselect">
+@article{li2020energy,
+  title={Energy-Based Models for Continual Learning},
+  author={Li, Shuang and Du, Yilun and van de Ven, Gido M and Torralba, Antonio and Mordatch, Igor},
+  journal={arXiv preprint arXiv:2011.12216},
+  year={2020}
+}
+</pre>
+</div>
+</div>
+</p> -->
+
+
 <br><br><br>
+
 
 <!-- ---------------------------------------------------------------------------------- -->
 <h2>Qualitative analysis</h2>
-<br>
 <h3>Energy landmap</h3>
-<br>
 Energy landmaps of Softmax-based classifiers and EBMs after training on task T9 and T10 on permuted MNIST. 
 The darker the diagonal is, the better the model is in preventing forgetting previous tasks.
 <br>
@@ -117,7 +136,6 @@ The darker the diagonal is, the better the model is in preventing forgetting pre
 <br>
 
 <h3>Predicted label distributation</h3>
-<br>
 Predicted label distribution after learning each task on the split MNIST dataset. 
 The Softmax-based classifier only predicts classes from the current task, while our EBM predicts classes for all seen classes
 <br>
@@ -125,7 +143,6 @@ The Softmax-based classifier only predicts classes from the current task, while 
 <br>
 
 <h3>Confusion matrices</h3>
-<br>
 Confusion matrices between ground truth labels and predicted labels at the end of learning on split MNIST (left) and permuted MNIST (right). 
 The lighter the diagonal is, the more accurate the predictions are.
 <br>
@@ -133,7 +150,6 @@ The lighter the diagonal is, the more accurate the predictions are.
 <br>
 
 <h3>Testing curve along training</h3>
-<br>
 Class-IL testing accuracy of the standard classifier (SBC), classifier using our training objective (SBC*), 
 and EBMs on each task on the split MNIST dataset (left) and permuted MNIST dataset (right).
 <br>
@@ -143,30 +159,28 @@ and EBMs on each task on the split MNIST dataset (left) and permuted MNIST datas
 
 <!-- ---------------------------------------------------------------------------------- -->
 <h2>Comparison with existing methods</h2>
-<br>
 <h3>Boundary-aware setting</h3>
-<br>
 Evaluation of class-incremental learning on the boundary-aware setting. Test accuracy on four datasets is reported. 
 Each experiment is performed at least 10 times with different random seeds, the results are reported as the mean/SEM over these runs. 
 Note our comparison is restricted to methods that do not replay stored or generated data.
 <br>
 <br>
-<center><a> <img src="files/fig/boundary_aware.png" style="float:none;width:500px"> </a></center>
+<center><a> <img src="files/fig/boundary_aware.png" style="float:none;width:450px"> </a></center>
 <br>
 
 <h3>Boundary-agnostic setting</h3>
-<br>
 Evaluation of class-incremental learning performance on the boundary-agnostic setting. 
 Each experiment is performed 5 times with different random seeds, average test accuracy is reported as the mean/SEM over these runs. 
 Note that our comparison is restricted to methods that do not replay stored or generated data.
 <br>
 <br>
-<center><a> <img src="files/fig/boundary_agnostic.png" style="float:none;width:500px"> </a></center>
+<center><a> <img src="files/fig/boundary_agnostic.png" style="float:none;width:450px"> </a></center>
 <br>
 
 
 
 <br><br><br>
+
 
 <!-- ---------------------------------------------------------------------------------- -->
 <h2>Our Additional Work on Energy-Based Models</h2>
@@ -188,12 +202,8 @@ Protein Conformations"</strong></a>, in ICLR 2020 (Spotlight).
 
 
 
-<!---
-<br>
-<h2>Acknowledgement</h2>
-<p align="justify"></p>
--->
 
+<!-- ---------------------------------------------------------------------------------- -->
 <div style="display:none">
 <script type="text/javascript" src="http://gostats.com/js/counter.js"></script>
 <script type="text/javascript">_gos='c3.gostats.com';_goa=390583;
