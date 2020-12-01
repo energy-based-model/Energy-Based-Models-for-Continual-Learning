@@ -86,28 +86,39 @@ BODY {
 
 
 <!-- ---------------------------------------------------------------------------------- -->
-<a href=""><img style="float: left; padding: 10px; PADDING-RIGHT: 30px;" alt="paper thumbnail" src="fig/paper_thumbnail.jpg" width=170></a>
+<a href=""><img style="float: left; padding: 10px; PADDING-RIGHT: 30px;" alt="paper thumbnail" src="files/fig/paper_thumbnail.png" width=170></a>
 <br>
 
 
 <h2>Paper</h2>
 <p><a href="https://arxiv.org/pdf/2011.12216.pdf">arxiv</a>,  2020. </p>
 
+<h2>Code: 
+<a href='https://github.com/ShuangLI59/ebm-continual-learning'>PyTorch</a>
+</h2>
+
 
 <h2>Citation</h2>
-<p>Shuang Li, Yilun Du, Gido M. van de Ven, Antonio Torralba, Igor Mordatch. "Energy-Based Models for Continual Learning", NeurIPS 2020 (spotlight).
-<a href="fig/citation.txt">Bibtex</a>
-
+<p>Shuang Li, Yilun Du, Gido M. van de Ven, Antonio Torralba, Igor Mordatch. <br>
+   Energy-Based Models for Continual Learning. <a href="files/citation.txt">Bibtex</a>
 </p>
-
-
-<h2>Code: <a href='https://github.com/yilundu/ebm_compositionality'>Tensorflow</a> </h2>
 
 <br><br>
 
 <!-- ---------------------------------------------------------------------------------- -->
 <p>
-<h2>Method</h2>
+<h2>Energy landmap</h2>
+<center><a> <img src="files/fig/landmap.png" style="float:none;width:600px"> </a></center>
+
+<h2>Predicted label distributation</h2>
+<center><a> <img src="files/fig/split_label_distributation.png" style="float:none;width:350px"> </a></center>
+
+<h2>Confusion matrix</h2>
+<center><a> <img src="files/fig/split_confusion.png" style="float:none;width:600px"> </a></center>
+
+<h2>Testing curve along training</h2>
+<center><a> <img src="files/fig/testing_curve.png" style="float:none;width:950px"> </a></center>
+
 
 Energy based models <a href="http://yann.lecun.com/exdb/publis/pdf/lecun-06.pdf">(EBMs) </a> represent a distribution over data by defining an energy \(E_\theta(x) \) so that the likelihood of the data is proportional to \( \propto e^{-E_\theta(x)}\).
 
@@ -268,26 +279,6 @@ We can further test the ability of our model to implicitly compositionally infer
 </p>
 
 
-<h2>Additional Related Work</h2>
-
-Here are some related works to the content presented in this paper:
-
-<ul id='relatedwork'>
-<li font-size: 15px>
- Geoffrey E. Hinton <a href="https://www.cs.toronto.edu/~hinton/absps/tr00-004.pdf"><strong>"Training Products of Experts by Minimizing Contrastive Divergence"</strong></a>
-</li>
-<li font-size: 15px>
- Yann LeCun, Sumit Chopra, Raia Hadsell, Marc'Aurelio Ranzato, and Fu Jie Huang <a href="http://yann.lecun.com/exdb/publis/pdf/lecun-06.pdf"><strong>"A Tutorial on Energy-Based Learning"</strong></a>
-</li>
-<li font-size: 15px>
- Ramakrishna Vedantam, Ian Fischer, Jonathan Huang, Kevin Murphy <a href="https://arxiv.org/abs/1705.10762"><strong>"Generative Models of Visually Grounded Imagination"</strong></a>
-</li>
-<li font-size: 15px>
- Irina Higgins, Nicolas Sonnerat, Loic Matthey, Arka Pal, Christopher P Burgess, Matko Bosnjak, Murray Shanahan, Matthew Botvinick, Demis Hassabis, Alexander Lerchner <a href="https://arxiv.org/abs/1707.03389"><strong>"SCAN: Learning Hierarchical Compositional Visual Concepts"</strong></a>
-</li>
-</ul>
-
-See our paper for a more comprehensive list of references.
 
 <h2>Our Additional Work on Energy-Based Models</h2>
 
@@ -295,10 +286,10 @@ If interested, here are additional works from us on utilizing energy models:
 
 <ul id='relatedwork'>
 <li font-size: 15px>
- Yilun Du, Igor Mordatch <a href="https://papers.nips.cc/paper/8619-implicit-generation-and-modeling-with-energy-based-models"><strong>"Implicit Generation and Modeling with Energy Based Models"</strong></a>, in NeurIPS 2019 (Spotlight).
+ Yilun Du, Shuang Li, Igor Mordatch <a href="https://arxiv.org/pdf/2004.06030.pdf"><strong>"Compositional Visual Generation with Energy Based Models"</strong></a>, in NeurIPS 2020 (Spotlight).
 </li>
 <li font-size: 15px>
- Yilun Du, Toru Lin, Igor Mordatch <a href="https://arxiv.org/abs/1909.06878"><strong>"Modeling Based Planning with Energy Based Models"</strong></a>, in CORL 2019.
+ Yilun Du, Igor Mordatch <a href="https://papers.nips.cc/paper/8619-implicit-generation-and-modeling-with-energy-based-models"><strong>"Implicit Generation and Modeling with Energy Based Models"</strong></a>, in NeurIPS 2019 (Spotlight).
 </li>
 <li font-size: 15px>
  Yilun Du, Joshua Meier, Jerry Ma, Rob Fergus, Alexander Rives <a href="https://openreview.net/pdf?id=S1e_9xrFvS"><strong>"Energy-Based Models For Atomic-Resolution
